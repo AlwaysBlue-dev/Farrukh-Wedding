@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wedding - Invitation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Tangerine:wght@700&display=swap"
         rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
     <style>
         * {
             margin: 0;
@@ -18,7 +19,7 @@
 
         body {
             /* background-color: rgb(0, 0, 0); */
-            /* background: url(ring-propose.mp4); */
+            background: url(back-img.jpg);
             /* width: 100%; */
             position: fixed;
             top: 0;
@@ -38,20 +39,21 @@
             src: url(GreatVibes.ttf);
         }
 
-
         .back-vid {
             position: fixed;
             right: 0;
-            /* top: 0; */
+            top: 0;
             bottom: 0;
             z-index: -1;
-            /* width: 100%; */
-            min-width: 100%;
-            min-height: 100%;
+            width: 25%;
+            /* min-width: 50%; */
+            /* min-height: 20%; */
             /* background-attachment: scroll; */
-
             /* height: 100vh; */
+            margin-right: 1000px;
+
         }
+
 
         .main {
             width: 80%;
@@ -69,6 +71,7 @@
 
         }
 
+
         .main .wedcard {
 
             /* padding-top: 10vh; */
@@ -80,13 +83,14 @@
             align-items: center;
             text-align: center;
             padding: 5px;
-            font-size: 11pt;
+            font-size: 16pt;
+            margin-top: 35px;
             /* font-family: greatvibes; */
             /* font-family: 'Oooh Baby', cursive; */
             /* font-family: 'Tangerine', cursive; */
             /* color: rgb(255, 255, 255); */
-            color: rgb(196, 212, 213);
-
+            color: rgba(0, 0, 0);
+            font-style: oblique;
         }
 
         .wedcard .invitation {
@@ -119,9 +123,14 @@
 </head>
 
 <body>
-    <video autoplay loop mute class="back-vid">
-        <source src="ring-propose.mp4" type="">
-    </video>
+
+    <!-- <video loop autoplay width="1000" height="620" class="back-vid">
+        <source src="ring-propose2.mp4" type="video/mp4">
+        
+    </video> -->
+
+    <div class="img-propose" style="text-align:left;"><img src="ring-propose.gif" class="back-vid"></div>
+
 
     <div class="main">
 
@@ -167,6 +176,7 @@
                 Venue: <a href="https://goo.gl/maps/kf4PtMJBXBGYvTsq9" class="location" target="_blank"
                     rel="noopener noreferrer">Golden Palace Banquet</a> <br>
                 Near: Cost Guard Chorangi Korangi 2 1/2 Karachi <br>
+
             </p>
 
             <div class="details">
